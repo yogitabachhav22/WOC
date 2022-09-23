@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background-image: linear-gradient(to right, #9c27b0, #8ecdff);
+}
+nav{
+    width: 80%;
+    position: sticky;
+    margin: 20px auto;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    flex-basis: 20%;
+}
+.logo img{
+    width: 100;
+}
+.nav_links{
+    flex: 1;
+    text-align: right;
+}
+.nav_links ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+.nav_links ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.information{
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translateY(-50%);
+}
+.circle{
+    width: 1500px;
+    height: 1000px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 40%;
+    background: #ccc;
+}
+.features img{
+    width:370px;
+}
+.features{
+    position: absolute;
+    color: blueviolet;
+}
+.one{
+    top: 350px;
+    right: 50px;
+}
+.two{
+    top: 220px;
+    left: 690px;
+}
+.three{
+    bottom: 450px;
+    left: 290px;
+}
+.four{
+    bottom: 250px;
+    right: 450px;
+}
+
+
+#popup {
+    width: 555px;
+    height: 375px;
+    background: #FFFFFF;
+    border: 5px solid #000;
+    border-radius: 25px;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    box-shadow: #64686e 0px 0px 3px 3px;
+    -moz-box-shadow: #64686e 0px 0px 3px 3px;
+    -webkit-box-shadow: #64686e 0px 0px 3px 3px;
+    position: relative;
+    top: 150px; left: 375px;
+}
+
+.reveal-modal {
+    background:#e1e1e1; 
+    margin: 0 auto;
+    width:60%; 
+    position:relative; 
+    z-index:41;
+    top: 0%;
+    padding:30px; 
+    -webkit-box-shadow:0 0 10px rgba(0,0,0,0.4);
+    -moz-box-shadow:0 0 10px rgba(0,0,0,0.4); 
+    box-shadow:0 0 10px rgba(0,0,0,0.4);
+}
+#msform {
+    width: 100%;
+    margin: 2px auto;
+    text-align: center;
+    position: relative;
+    padding: 2% 0;
+}
+#msform fieldset {
+    background: white;
+    border: 0 none;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 0 15px 1px rgb(0 0 0 / 40%);
+    box-shadow: 0 0 15px 1px rgb(0 0 0 / 40%);
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+}
+#progressbar {
+    margin-bottom: 30px;
+    overflow: hidden;
+    counter-reset: step;
+}
+
+.single-ppc .vc_message_box.ppcsingle.vc_message_box-standard.vc_message_box-rounded.vc_color-info {
+    padding-left: 0;
+    padding-top: 0;
+}
+.single-ppc .vc_message_box.ppcsingle.vc_message_box-standard.vc_message_box-rounded.vc_color-info {
+    color: #5e7f96;
+    border-color: transparent;
+    background-color: transparent;
+    border: 1px solid transparent;
+    overflow: hidden;
+    margin: 0;
+    padding: 0.9em 1em 1em 4em;
+    position: relative;
+    font-size: 1em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+#debtAmount1 {
+    visibility: hidden;
+    width: 0;
+    position: absolute;
+}
+form#msform input {
+    border: 1px solid grey!important;
+}
+#msform input {
+    padding: 15px;
+    border: 1px solid grey;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    width: 80%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    color: #2C3E50;
+    font-size: 20px;
+}
+.fs-title {
+    font-size: 18pt;
+    text-transform: uppercase;
+    color: #2C3E50;
+    margin-bottom: 10px;
+}
+.single-ppc fieldset#question-1 h5.fs-subtitle {
+    margin-bottom: 6px;
+}
+
+.fs-subtitle {
+    font-weight: normal;
+    font-size: 13px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+
+.single-ppc .vc_message_box.ppcsingle.vc_message_box-standard.vc_message_box-rounded.vc_color-info {
+    padding-left: 0;
+    padding-top: 0;
+}
+.single-ppc .vc_message_box.ppcsingle.vc_message_box-standard.vc_message_box-rounded.vc_color-info {
+    color: #5e7f96;
+    border-color: transparent;
+    background-color: transparent;
+    border: 1px solid transparent;
+    overflow: hidden;
+    margin: 0;
+    padding: 0.9em 1em 1em 4em;
+    position: relative;
+    font-size: 1em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: inline-block;
+}
+form .btn-color-cta {
+    color: #FFFFFF;
+    background-image: linear-gradient(to right, #524ac3 , #a354a5);
+    border-color: #FFFFFF;
+    margin-bottom: 15px;
+    font-size: 18pt;
+    border-radius: 30px;
+}
+
+
+form#msform label.btn.btn-color-cta {
+    text-align: left;
+    padding: 12px;
+    border-radius: 10px;
+    padding-left: 30px;
+    font-size: 16px;
+    font-weight: 800;
+    font-family: muli;
+}
+label {
+    width:200px;
+    display: inline-block;
+  }
