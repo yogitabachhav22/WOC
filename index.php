@@ -60,7 +60,7 @@
             </div>   
         </div> 
         <div id="ac-wrapper" style='display:none' class="reveal-modal">
-            <form id="msform" method="post" action="welcome.php" name="myForm" onsubmit="return validatemycrmForm();">
+            <form id="msform" method="post" action=" " name="myForm">
               
                 <!-- Start Registration form -->
                 <?php include('userRegistration.php') 
