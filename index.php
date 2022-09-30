@@ -151,7 +151,7 @@
         $(document).ready(function(){
                 setTimeout(function(){
                     PopUp('show');
-            },1000); // 5000 to load it after 5 seconds from page load
+            },1000); // 1000 to load it after 5 seconds from page load
         });
     </script>
 </body>
