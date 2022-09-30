@@ -86,15 +86,15 @@
                 <fieldset id="client-details"- style='display:none'>
                     <h2 class="fs-title">GREAT! NOW LET'S FIND YOU A SOLUTION</h2>
                     <h3 class="fs-subtitle">We've helped 100,000+ people. Let us help you</h3>
-                    <input type="text" id="fullname" name="fullname" maxlength="10" placeholder="First Name">
+                    <input type="text" id="fullname" name="fullname" maxlength="10" placeholder="First Name" required>
                     <span class="error err_name"></span>
                     
-                    <input type="text" id="lastname" name="lastname" maxlength="10" placeholder="Last Name">
+                    <input type="text" id="lastname" name="lastname" maxlength="10" placeholder="Last Name" required>
                     <span class="error err_lname"></span>
                     
-                    <input type="tel" id="lfphonenumberPPC" name="telephone" placeholder="Phone Number">
+                    <input type="tel" id="lfphonenumberPPC" name="telephone" placeholder="Phone Number" required>
                     
-                    <input type="email" id="memail" name="email" placeholder="E-Mail">
+                    <input type="email" id="memail" name="email" placeholder="E-Mail" required>
                    
                     <br><br>
                     <div style="width:80%;" class="mx-auto" bis_skin_checked="1">
