@@ -21,7 +21,7 @@ $conn->query($sql);
 
                
                 <!-- fieldsets -->
-                <form id="msform" method="post" action="" name="myForm" onsubmit="return validatemycrmForm();">
+                <form id="msform" method="post" action="" name="myForm">
                 <fieldset id="question-1">
                     <h4 class="fs-title">TO GET STARTED ANSWER TWO QUESTIONS</h4>
                     <h5 class="fs-subtitle">(How much debt are you in? ⬇)</h5>
@@ -45,12 +45,12 @@ $conn->query($sql);
                     
                     <input type="text" id="fullname" name="fullname" maxlength="10" placeholder="First Name" required>
                     <span class="error err_name"></span>
-                    <span style="color: red">*</span>
+                    
                     <input type="text" id="lastname" name="lastname" maxlength="10" placeholder="Last Name" required>
                     <span class="error err_lname"></span>
-                    <span style="color: red">*</span>
-                    <input type="tel" id="lfphonenumberPPC" name="telephone" maxlength="10" pattern="[7-9]{1}[0-9]{9}"  title = "Invalid Phone num " placeholder="07-40-49125" required>
-                    <span style="color: red">*</span>
+                    
+                    <input type="tel" id="lfphonenumberPPC" name="telephone" maxlength="10" title = "Invalid Phone num " placeholder="07-40-49125" required>
+                  
                     <input type="email" id="memail" name="email" placeholder="E-Mail" required>
                     <span style="color: red">*</span>
                     <br><br>
